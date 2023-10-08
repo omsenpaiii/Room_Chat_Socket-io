@@ -1,4 +1,4 @@
-const socket = io("https://roomchatsocket-io-production.up.railway.app")
+const socket = io("https://room-chat-socket-io.vercel.app")
 const chatbox = document.querySelector(".chatbox")
 const chatarea = document.querySelector(".chat-area");
 const url = new URL(location.href)
