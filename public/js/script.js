@@ -7,7 +7,6 @@ const username = url.searchParams.get("username")
 const input = document.querySelector("input");
 const button = document.querySelector("button");
 
-
 button.addEventListener("click",(e)=>{
     e.preventDefault()
     if (input.value == "") {
